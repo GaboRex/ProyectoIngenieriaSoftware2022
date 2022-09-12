@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
-import { PokeCard } from "./components/PokeCard";
+import { LoginFormik } from "./components/LoginFormik";
 import API from "./config/api";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   //return <>{trainer && <PokeCard idPokemon={trainer.id_pokemon}></PokeCard>}</>;
-  return <><h1>Estoy roto</h1></>;
+  return <><LoginFormik/></>
 }
 
 export default App;
