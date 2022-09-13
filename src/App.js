@@ -4,7 +4,7 @@ import { LoginFormik } from "./components/LoginFormik";
 import API from "./config/api";
 
 function App() {
-  const [trainer, setTrainer] = useState();
+  const [ setTrainer] = useState();
   const getTrainerId = async () => {
     const trainerReponse = await API.get(`/trainer/2`);
     const { data } = trainerReponse;
