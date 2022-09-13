@@ -1,9 +1,5 @@
 {
   "projects": {
-<<<<<<< HEAD
     "default": "pokedex-dcf99"
-=======
-    "default": "pokedex-13b40"
->>>>>>> e6f8f7c0e390e59e3189abae461abad9337e5177
   }
 }
