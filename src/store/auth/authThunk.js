@@ -8,7 +8,7 @@ const user = {
     password : '1213g'
     
 }
-export const login = () => {
+export const login = (email, password) => {
     return async(dispatch) => {
      dispatch(isLoading());
      dispatch(setUser(user));
